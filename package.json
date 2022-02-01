@@ -1,6 +1,6 @@
 {
   "name": "react-native-sqlite-storage-cipher",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "SQLite3 bindings for React Native (Android & iOS)",
   "main": "sqlite.js",
   "scripts": {
@@ -41,5 +41,8 @@
   "directories": {
     "lib": "lib",
     "test": "test"
+  },
+  "dependencies": {
+    "react-native-sqlite-storage-cipher": "^1.0.0"
   }
 }
