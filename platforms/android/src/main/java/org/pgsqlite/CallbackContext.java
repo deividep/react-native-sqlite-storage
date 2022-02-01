@@ -28,7 +28,6 @@ public class CallbackContext {
      */
     public void success(WritableMap message) {
         successCallback.invoke(message);
-
     }
 
     /**
