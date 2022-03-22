@@ -18,6 +18,7 @@ var config = [
   [false, "SQLitePluginTransaction", "executeSql", true, false],
   [false, "SQLiteFactory", "deleteDatabase", false, false],
   [true, "SQLiteFactory", "openDatabase", false, false],
+  [false,"SQLitePlugin","sqlBatch",false,false,true],
 ];
 
 var config2 = [
