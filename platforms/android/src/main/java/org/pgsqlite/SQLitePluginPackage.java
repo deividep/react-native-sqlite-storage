@@ -4,7 +4,6 @@
  * Copyright (c) 2015, Andrzej Porebski
  */
 package org.pgsqlite;
-
 import android.app.Activity;
 
 import com.facebook.react.ReactPackage;
@@ -39,11 +38,6 @@ public class SQLitePluginPackage implements ReactPackage {
       modules.add(new SQLitePlugin(reactContext));
 
       return modules;
-    }
-
-    // Deprecated RN 0.47
-    public List<Class<? extends JavaScriptModule>> createJSModules() {
-        return Collections.emptyList();
     }
 
     @Override
